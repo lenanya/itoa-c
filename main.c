@@ -55,6 +55,7 @@ void itoa(char* ret, int n) {
 void _start() {
 	itoa(itoares, -69);
 	writeln(STDOUT, itoares, cstrlen(itoares));
+	clearbuffers();
 	itoa(itoares, 3789423);
 	writeln(STDOUT, itoares, cstrlen(itoares));
 	_exit(0);
