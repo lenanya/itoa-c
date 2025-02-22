@@ -2,11 +2,10 @@
 .global _exit
 
 write:
-    movq $1, %rax
-    syscall
-    ret
+	mov $1, %rax
+	syscall
+	ret
 
 _exit:
-    movq $60, %rax 
-    syscall
-
+	mov $60, %rax
+	syscall
